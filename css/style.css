@@ -313,13 +313,19 @@ main #tres .map-flex {
     width: 900px;
     border: #340b65 solid 2px;
     background-color: #010010;
+
+    display: flex;
+    align-items: center;
+
+   padding-left: 5%;
 }
 
 main #Alameda{
-  border: #F9003D 2px solid;
+  /* border: #F9003D 2px solid; */
 
   height: 101px;
   width: 423px;
+
 }
 
 main #Alameda p{
@@ -332,7 +338,21 @@ main #Alameda p{
     align-items: center;
 }
 
+main #mapinha{
+    /* border: #F9003D solid 3px; */
+    
+    height: 249px;
+    width: 309px;
 
+    position: relative;
+    top: -50px;
+    right: -80px;
+
+    background-image: url(../assests/image/mapa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* Rodapé */
 
